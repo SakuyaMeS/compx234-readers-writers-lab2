@@ -173,7 +173,7 @@ def main() -> None:
 
     #TODO: Create at least 3 Reader threads.
     readers = [
-        Reader(reader_id=1, monitor=monitor)
+        Reader(reader_id=1, monitor=monitor),
         Reader(reader_id=2, monitor=monitor),
         Reader(reader_id=3, monitor=monitor),
         Reader(reader_id=3484, monitor=monitor),
